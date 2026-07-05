@@ -1,8 +1,9 @@
 {
+  "version": 2,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://googleapis.com"
+      "source": "/api/v1/chat/completions",
+      "destination": "https://openrouter.ai"
     }
   ]
 }
